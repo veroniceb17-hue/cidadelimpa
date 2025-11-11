@@ -1,0 +1,415 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3f9f3;
+    color: #333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover, .ativo {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* --- FOOTER FIXO --- */
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;         /* fixa o rodapé */
+    bottom: 0;               /* encosta no final da tela */
+    left: 0;
+    width: 100%;             /* ocupa toda a largura da página */
+    z-index: 1000;           /* garante que fique acima de outros elementos */
+}
+
+/* --- AJUSTE PARA O CONTEÚDO NÃO FICAR ESCONDIDO --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3f9f3;
+    color: #333;
+    padding-bottom: 60px; /* espaço reservado para o footer fixo */
+}
+
+section {
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: left;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+section h2 {
+    color: #1b5e20;
+}
+.imagens-home {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.imagens-home img {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.imagens-home img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo das seções da página Missão */
+.secao {
+    background-color: #e8f5e9;
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.icone {
+    width: 80px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: "♻️ ";
+    padding-left: 25px;
+}
+.imagens-home {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.imagens-home img {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.imagens-home img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo das seções da página Missão */
+.secao {
+    background-color: #e8f5e9;
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.icone {
+    width: 80px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: "♻️ ";
+    padding-left: 25px;
+}
+.imagens-home {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.imagens-home img {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.imagens-home img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo das seções da página Missão */
+.secao {
+    background-color: #e8f5e9;
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.icone {
+    width: 80px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: "♻️ ";
+    padding-left: 25px;
+}
+:root {
+  --azul: #007BFF;
+  --vermelho: #E83E3E;
+  --verde: #28A745;
+  --amarelo: #FFC107;
+  --marrom: #8B5A2B;
+
+  --bg: #f7f9fb;
+  --card-bg: #ffffff;
+  --text: #1b1b1b;
+  --muted: #555;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+}
+
+p.lead {
+  margin: 0 0 24px;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(15, 15, 15, 0.06);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(15, 15, 15, 0.12);
+}
+
+.swatch {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  flex: 0 0 70px;
+  display: grid;
+  place-items: center;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.swatch img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.meta {
+  flex: 1;
+}
+
+.meta h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.examples {
+  margin: 6px 0 10px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.tagline {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 6px;
+}
+
+/* Cores de fundo conforme o tipo */
+.swatch.papel { background: var(--azul); }
+.swatch.plastico { background: var(--vermelho); }
+.swatch.vidro { background: var(--verde); }
+.swatch.metal { background: var(--amarelo); }
+.swatch.organico { background: var(--marrom); }
+
+@media (max-width: 520px) {
+  body { padding: 18px; }
+  .card { padding: 14px; }
+  .swatch { width: 60px; height: 60px; }
+  .swatch img { width: 50px; height: 50px; }
+}
+footer {
+    background-color: #2e7d32;     /* Verde escuro sustentável */
+    color: white;                  /* Texto branco */
+    text-align: center;            /* Centraliza o texto */
+    padding: 20px 0;               /* Espaçamento interno */
+    font-weight: bold;             /* Texto em negrito */
+    font-size: 16px;
+    margin-top: 40px;              /* Espaçamento acima do rodapé */
+}
+
+footer p {
+    margin: 5px 0;                 /* Espaçamento entre as linhas */
+}
+.lista-cursos {
+    list-style: none;         /* Remove o marcador padrão da lista */
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;       /* Centraliza horizontalmente conforme o conteúdo */
+}
+
+.lista-cursos li {
+    display: flex;            /* Coloca ícone e texto lado a lado */
+    align-items: center;      /* Centraliza verticalmente */
+    gap: 4px;                 /* Espaço entre o ícone e o texto */
+    margin: 6px 0;            /* Espaço entre as linhas */
+    font-weight: bold;
+}
+
+.lista-cursos li img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain; /* ou cover */
+    image-rendering: -webkit-optimize-contrast; /* melhora nitidez */
+    image-rendering: crisp-edges;
+}
+/*ongs parceira*/
+.lista-ongs {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;       /* Centraliza o bloco */
+    max-width: 400px;     /* Opcional: limita largura para manter tudo alinhado */
+    text-align: left;     /* Mantém texto alinhado */
+}
+
+.lista-ongs li {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza imagem + texto juntos */
+    margin-bottom: 12px;
+}
+
+.lista-ongs li img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+main {
+    text-align: center; /* Centraliza título e parágrafo */
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.imagens {
+    margin-top: 15px;
+}
+
+.imagens img {
+    width: 200px;    /* ajuste conforme necessário */
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.imagens {
+    text-align: center; /* centraliza as imagens */
+    margin-top: 15px;
+}
+
+.imagens img {
+    width: 200px;      /* ajuste conforme necessário */
+    margin: 10px;
+    display: inline-block;
+}
+main {
+    max-width: 800px;        /* controla a largura do texto */
+    margin: 0 auto;          /* centraliza o bloco na página */
+    padding: 20px;
+    text-align: center;      /* centraliza o conteúdo */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 18px;
+    text-align: justify;     /* deixa o texto alinhado nas bordas */
+    text-indent: 35px;       /* recuo no início do parágrafo */
+}
