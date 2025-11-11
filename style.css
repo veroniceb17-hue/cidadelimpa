@@ -408,19 +408,23 @@ main h1 {
     margin-bottom: 15px;
 }
 
-main p {
-    font-size: 18px;
-    text-align: justify;     /* deixa o texto alinhado nas bordas */
-    text-indent: 35px;       /* recuo no início do parágrafo */
-}
+main p,
 main ul {
-    list-style: none;
-    padding: 0;
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto;     /* Centraliza o bloco, se houver largura */
+}
+
+main ul {
+    list-style: none; /* Remove marcadores */
+    padding: 0;       /* Remove recuo padrão */
+    margin-top: 10px; /* Espaço controlado */
 }
 
 main ul li {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    gap: 8px; /* Espaço entre marcador e texto, se houver ícone */
     margin: 5px 0;
 }
+main ul {
+    padding-left: 0;
+    list-style-position: inside; /* Marcações ficam alinhadas ao texto */
+}
+
